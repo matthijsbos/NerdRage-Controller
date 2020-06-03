@@ -1,0 +1,4 @@
+{
+    "platformio-ide.pioHomeServerHttpPort": 8901,
+    "platformio-ide.disablePIOHomeStartup": true
+}
