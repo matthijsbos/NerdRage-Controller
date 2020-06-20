@@ -1,5 +1,4 @@
 {
-	"name": "Debian 10 & Git",
 	"image": "matthijsbos/nerdrage-controller-dev",
 	"settings": { 
 		"terminal.integrated.shell.linux": "/bin/bash"
