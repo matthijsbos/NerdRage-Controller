@@ -6,3 +6,4 @@ services:
 script:
   - docker pull matthijsbos/nerdrage-controller-dev:latest
   - "docker run --rm -v $(pwd):/workspace -w /workspace -d matthijsbos/nerdrage-controller-dev:latest platformio run"
+  - "docker run --rm -v $(pwd):/workspace -w /workspace -d matthijsbos/nerdrage-controller-dev:latest platformio test"
