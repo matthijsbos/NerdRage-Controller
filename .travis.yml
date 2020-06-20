@@ -1,0 +1,8 @@
+language: generic
+
+services:
+  - docker
+
+script:
+  - docker pull matthijsbos/nerdrage-controller-dev:latest
+  - docker run --rm matthijsbos/nerdrage-controller-dev:latest platformio run 
